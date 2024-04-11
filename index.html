@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="https://epamemo.my.id/_next/image?url=%2Fimages%2Flogo-b-collapsed.png&w=96&q=75"
+          alt=""
+        />
+        <h1>Feedback App</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <h2>Tell us a feedback for better day</h2>
+        <form id="feedback-form">
+          <input type="hidden" id="edit-id" />
+          <input
+            type="text"
+            id="name-input"
+            placeholder="Your Name (Optional)"
+          />
+          <input type="text" id="feedback-input" placeholder="Enter feedback" />
+          <button class="primary" type="submit" id="submit-button">
+            Submit
+          </button>
+        </form>
+        <h2>Hall of Feedback!</h2>
+        <div id="feedback-container" class="grid-container">
+          <article class="feedback-item">
+            <span>Nama: Feedback</span>
+            <button>Edit</button>
+            <button>Delete</button>
+          </article>
+        </div>
+      </div>
+      <aside>please suggest what shout i fill here</aside>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 USME-Creation. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
